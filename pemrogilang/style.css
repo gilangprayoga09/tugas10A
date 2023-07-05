@@ -1,0 +1,87 @@
+  
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url(background3.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 5px 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 99;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      }
+  
+  
+      .logo {
+      font-size: 2em;
+      color: #fff;
+      user-select: none;
+      margin-left: -2cm;
+      }
+  
+      .navigation a {
+      position: relative;
+      font-size: 1.1em;
+      color: #fff;
+      border-radius: 20px;
+      padding: 6px 15px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 40px;
+      }
+  
+      .navigation a.active {
+        background: #bf5da8;
+        color: #fff;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-top: 4cm;
+      }
+      
+      .service {
+        width: 30%;
+        padding: 20px;
+        background: transparent;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        margin: 10px;
+        text-align: center;
+        color: #fff;
+        outline: none;
+        backdrop-filter: blur(30px);
+      }
+      
+      .service-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .service-image {
+        width: 40%;
+        margin-bottom: 10px;
+      }
+      
+      .service-description {
+        font-size: 14px;
+      }
+      
+      .center {
+        text-align: center;
+      }
